@@ -1,0 +1,22 @@
+class Dad
+{
+    Dad(String Name)
+    {
+        System.out.println("Dad");
+    }
+}
+class son extends Dad
+{
+    son()
+    {
+        super("Karthik");
+        System.out.println("son");
+    }
+}
+public class main
+{
+    public static void main(String[]args)
+    {
+        son s = new son();
+    }
+}
